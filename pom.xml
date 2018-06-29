@@ -128,5 +128,6 @@
 	<modules>
 		<module>song-mybatis</module>
 		<module>song-common</module>
+		<module>song-mongo</module>
 	</modules>
 </project>
