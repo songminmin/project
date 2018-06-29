@@ -127,5 +127,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>song-mybatis</module>
+		<module>song-common</module>
 	</modules>
 </project>

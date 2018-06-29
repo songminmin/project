@@ -2,7 +2,7 @@ package org.song.mybatis.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.song.mybatis.service.UserService;
+import org.song.mybatis.service.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -12,7 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class UserTest {
 	
 	@Autowired
-	UserService userService;
+	UserServiceImpl userService;
 	
 	@Test
 	public void testSelectAllUser() throws Exception{

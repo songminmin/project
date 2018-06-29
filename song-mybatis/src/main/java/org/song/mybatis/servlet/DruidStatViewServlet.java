@@ -5,7 +5,11 @@ import javax.servlet.annotation.WebServlet;
 
 import com.alibaba.druid.support.http.StatViewServlet;
 
-
+/**
+ * druid监控地址 http://localhost/druid/index.html
+ * @author songmm-b
+ *
+ */
 @SuppressWarnings("serial")
 @WebServlet(urlPatterns = "/druid/*",
 initParams={

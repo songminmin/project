@@ -1,6 +1,6 @@
 package org.song.mybatis.mapper;
 
-import org.song.mybatis.entity.User;
+import org.song.common.mysql.entity.User;
 
 import tk.mybatis.mapper.common.Mapper;
 
