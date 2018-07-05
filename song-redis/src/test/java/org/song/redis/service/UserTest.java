@@ -1,8 +1,7 @@
-package org.song.mybatis.service;
+package org.song.redis.service;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.song.common.redis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -12,12 +11,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class UserTest {
 	
 	@Autowired
-	UserService userService;
+	private UserServiceImpl redisService;
 	
 	@Test
-	public void testSelectAllUser() throws Exception{
-		userService.addUser();
+	public void addUser() throws InterruptedException{
+		redisService.addUser();
 	}
-	
 
 }
