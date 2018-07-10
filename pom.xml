@@ -130,5 +130,6 @@
 		<module>song-common</module>
 		<module>song-mongo</module>
     <module>song-redis</module>
+    <module>song-web</module>
   </modules>
 </project>
