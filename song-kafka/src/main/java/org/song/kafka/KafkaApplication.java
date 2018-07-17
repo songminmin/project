@@ -18,7 +18,7 @@ public class KafkaApplication
 
         for (int i = 0; i < 1; i++) {
             //调用消息发送类中的消息发送方法
-            sender.send(2L);
+            sender.send(6L);
 
             /*try {
                 Thread.sleep(3000);
