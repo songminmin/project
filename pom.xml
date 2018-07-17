@@ -123,6 +123,12 @@
 				<artifactId>javassist</artifactId>
 				<version>3.21.0-GA</version>
 			</dependency>
+			
+			<dependency>
+			    <groupId>com.alibaba</groupId>
+			    <artifactId>fastjson</artifactId>
+			    <version>1.2.31</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<modules>

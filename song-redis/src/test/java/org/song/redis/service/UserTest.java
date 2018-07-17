@@ -18,4 +18,14 @@ public class UserTest {
 		redisService.addUser();
 	}
 
+	
+	@Test
+	public void testSet() throws InterruptedException{
+		redisService.testSet();
+	}
+	
+	@Test
+	public void testString() {
+		redisService.testString();
+	}
 }
